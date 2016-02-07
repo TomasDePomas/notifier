@@ -4,7 +4,7 @@ Full Documentation
 
 Table of contents
 ------------
-* **[Functions](#notifier-functions)**
+* **[Functions](#functions)**
 	* Notifier.**start()**
     * Notifier.**setConfig()**
     * Notifier.**send()**
