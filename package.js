@@ -3,7 +3,7 @@ Package.describe({
     version: '0.8.0',
     summary: 'Atmosphere package to send notifications to the users of your applications. It uses the service worker API and GCM to send these notifications when your site is not active.',
 
-    git: '',
+    git: 'https://github.com/TomasDePomas/notifier.git',
     documentation: 'README.md'
 });
 
