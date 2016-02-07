@@ -15,7 +15,7 @@ Package.onUse(function(api) {
         'http',
         'templating',
         'accounts-password',
-        'erasaur:meteor-lodash'
+        'erasaur:meteor-lodash@4.0.0'
     ]);
 
     api.addFiles([
