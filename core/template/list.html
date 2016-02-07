@@ -1,0 +1,40 @@
+<template name="notifierList">
+  <table>
+    <thead>
+      <tr>
+          <th>Send</th>
+          <th>Receiver</th>
+          <th>Message</th>
+          <th>Received</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {{#each notifications}}
+      {{> notifierItem}}
+    {{else}}
+      <td></td>
+      <td colspan="4">No notifications to display</td>
+    {{/each}}
+
+    </tbody>
+  </table>
+  <div class="input-field">
+    <input type="checkbox" id='only-current' name='only-current' checked="{{onlyCurrent}}"/>
+    <label for="only-current">Only current user</label>
+  </div>
+</template>
+
+<template name="notifierItem">
+  <tr>
+    <td>{{send}}</td>
+    <td>{{receiver}}</td>
+    {{#if received}} 
+    <td style="max-width: 450px;">{{trimmedText}}</td>
+    <td>{{received}}</td>
+    {{else}}
+    <td style="max-width: 450px;"><strong>{{trimmedText}}</strong></td>
+    <td><strong> - </strong></td>
+    {{/if}}
+  </tr>
+</template>

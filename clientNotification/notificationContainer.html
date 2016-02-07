@@ -1,0 +1,32 @@
+<body>
+  {{> notifierContainer}}
+
+</body>
+
+<template name="notifierContainer">
+  <div id="notifierContainer">
+    {{#each notifications}}
+      {{>notifierNotification}}
+    {{/each}}
+  </div>
+</template>
+
+
+<template name="notifierNotification">
+  <div style="border: 1px solid #000;
+              padding: 5px;
+              margin: 2px;
+              background: #fff;
+              display: none;
+              min-height: 80px;">
+
+    {{#if icon }}
+      <img src="{{icon}}" width="40" height="40">
+    {{/if}}
+
+    <div style="display: inline-block;">
+      <strong>{{title}}</strong>
+      <p style="margin: 5px 0;">{{body}}</p>
+    </div>
+  </div>
+</template>

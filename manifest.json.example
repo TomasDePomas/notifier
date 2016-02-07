@@ -1,0 +1,7 @@
+// Make sure this file is served at <site root>/manifest.json
+// by placing this file in the root of your <project root>/public/ folder
+// and remove this comment or your json won't work
+
+{
+  "gcm_sender_id": "<ENTER YOUR GOOGLE CONSOLE PROJECT NUMBER HERE>"
+}
