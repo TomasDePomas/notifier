@@ -14,6 +14,7 @@ Table of contents
 * [Configuration](#Configuration)
 * [ToDo list](#ToDo-list)
 * [Troubleshooting](#Troubleshooting)
+* [Additional Files](#Additional-Files)
 
 
 
@@ -21,6 +22,8 @@ Introduction
 ------------
 This package is made to send notifications to the users of your applications. It uses the service worker API to send 
 these notifications even when your site is not active. 
+
+It took me a while to figure all this out and I am by no means an expert. I just thought this might help people to make use of the new Notification capabilities of modern web browsers. 
 
 The configuration process for the service worker notifications is not as plug and play as other packages so please read 
 the documentation carefully. **Beware, in order to get it to work on anything but localhost, you will need an ssl
@@ -48,8 +51,8 @@ This package facilitates three different levels of notifications:
 The package will keep track of which level of notifiaction is available and appropriate per user. The schematic below 
 will show how messages are distributed.
 
-.. | Window is active | Window is inactive | Window is closed
---|--|--|--|
+..| Window is active | Window is inactive | Window is closed
+------|------|------|------|
 **window.Notification available** | client | window | none
 **serviceWorker available** | client | push   | push
 **neither is available** | client | client | none
@@ -89,20 +92,15 @@ Notifier.send(
 );
 ```
 
-For more options, check [the Full documentation]('docs/Full-Documentation.md)
+For more options, check [the Full documentation](docs/Full-Documentation.md)
 
 ToDo list
 ------------
-* Update README.md
-* Update package.js
 * Code cleanup
-
 * Look at Cordova possibilities
 * Look at APN by Apple
 * Look at MDN by Mozilla
 * Look at MPNS by Microsoft
-
-* Make an overview of actual browser compatibility
 * Implement some sort of tests
 
 
@@ -119,3 +117,9 @@ or [about:preferences#content](about:preferences#content) on Firefox'.
 If notifications do not work on your production server, but it did just fine on your local development environment, you
 might not have a SSL certificate installed on your production server.
 
+
+Additional Files
+-------------
+* [How to set up GCM and the Manifest file](docs/GCM-Configuration.md)
+* [How to set up the service worker file](docs/ServiceWorker-Documentation.md)
+* [Full documentation](docs/Full-Documentation.md)
