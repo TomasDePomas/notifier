@@ -3,8 +3,8 @@ Service Worker - Configuration
 ===============
 
 ### Table of contents ###
-* [Setup the Service Worker file](#Setup-the-service-worker-file)
-* [Changing the Service Worker file](#Changing-the-service-worker-file)
+* [Setup the Service Worker file](#setup-the-service-worker-file)
+* [Changing the Service Worker file](#changing-the-service-worker-file)
 
 
 Setup the Service Worker file
