@@ -4,10 +4,10 @@ GCM - Configuration
 
 ### Table of contents ###
 * [Setup a Google API project](#setup-a-google-api-project)
-* [Enable the GCM Service](#enable-the-gcm-service) 
+* [Enable the GCM API](#enable-the-gcm-api) 
 * [Create an API Key](#create-an-api-key) 
-* [Setup the manifest file](#setup-the-manifest-file)
-
+* [Setup the project number in the manifest file](#setup-the-project-number-in-the-manifest-file)
+* [Setup the API key in the configuration](#setup-the-api-key-in-the-configuration)
 
 Setup a Google API project
 ------------
