@@ -4,7 +4,7 @@ Full Documentation
 
 Table of contents
 ------------
-* **[Functions](#Notifier-Functions)**
+* **[Functions](#notifier-functions)**
 	* Notifier.**start()**
     * Notifier.**setConfig()**
     * Notifier.**send()**
@@ -12,9 +12,9 @@ Table of contents
     * Notifier.**unsubscribe()**
     * Notifier.**windowNotification()**
     
-* **[Database](#Database)**
-* **[Templates](#Templates)** 
-* **[Examples](#Examples)**
+* **[Database](#database)**
+* **[Templates](#templates)** 
+* **[Examples](#examples)**
 
 
 Functions
