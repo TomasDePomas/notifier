@@ -6,15 +6,15 @@ Notifier v0.8.0
 
 Table of contents
 ------------
-* [Introduction](#Introduction)
-* [Dependencies](#Dependencies) 
-* [Installation](#Installation) 
-* [Three levels of Notifications](#Three-levels-of-Notifications)
-* [Quick start](#Quick-start)
-* [Configuration](#Configuration)
-* [ToDo list](#ToDo-list)
-* [Troubleshooting](#Troubleshooting)
-* [Additional Files](#Additional-Files)
+* [Introduction](#introduction)
+* [Dependencies](#dependencies) 
+* [Installation](#installation) 
+* [Three levels of Notifications](#three-levels-of-notifications)
+* [Quick start](#quick-start)
+* [Configuration](#configuration)
+* [ToDo list](#todo-list)
+* [Troubleshooting](#troubleshooting)
+* [Additional Files](#additional-files)
 
 
 
