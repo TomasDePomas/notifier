@@ -1,5 +1,5 @@
 
-Notifier v0.8.0
+Notifier v0.8.1
 ===============
 *You've got mail.* - Elwood Edwards
 
@@ -87,7 +87,7 @@ your users.
 In order to send a message to a specific user, use the following syntax:
 ```javascript
 Notifier.send(
-	'Hallo',            /* A message */
+	'Hello',            /* A message */
 	'g8aQSJunen44ZK5nn' /* receiverId / userId */
 );
 ```

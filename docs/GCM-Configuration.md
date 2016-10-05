@@ -43,9 +43,9 @@ use it later in the configuration.
 
 Setup the project number in the manifest file
 ------------
-In the root of this project you will find a `manifest.json.example` file. Copy this file to the root public folder of 
-your project and rename it to `manifest.json`. If you have done this correctly you should be able to find the file
-on `<YOUR_PROJECT_URL>/manifest.json` when your meteor project is running.
+In the root of this project you will find a `notification-manifest.json.example` file. Copy this file to the root public folder of 
+your project and rename it to `notification-manifest.json`. If you have done this correctly you should be able to find the file
+on `<YOUR_PROJECT_URL>/notification-manifest.json` when your meteor project is running.
 
 In the `manifest.json`, enter your project number from your Google developers console on the `"gcm_sender_id"` line.
 

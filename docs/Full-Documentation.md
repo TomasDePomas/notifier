@@ -87,7 +87,7 @@ In order to send a message to a specific user, use the following syntax:
 
 ```javascript
 Notifier.send(
-	'Hallo', 
+	'Hello', 
 	'g8aQSJunen44ZK5nn'
 );
 
@@ -101,7 +101,7 @@ Besides the `text` and `receiverId` parameters, `Notifier.send` also accepts an 
 
 ```javascript
 Notifier.send(
-	'Hallo human', 
+	'Hello human', 
 	'g8aQSJunen44ZK5nn',
 	{
 		title : 'Message',

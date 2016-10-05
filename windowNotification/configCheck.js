@@ -3,12 +3,12 @@
  */
 
 Meteor.startup(function () {
-    Meteor.call('/notifications/setWindowNotificationStatus', Notifier.WINDOW_NOTIFICATION_STATUS_ENABLED);
+    Meteor.call('/notifier/setWindowNotificationStatus', Notifier.WINDOW_NOTIFICATION_STATUS_ENABLED);
     if(window.Notification && Notification.requestPermission){
         if (Notification.permission === 'default') {
             Notification.requestPermission(function (permission) {
                 if(permission != 'denied'){
-                    Meteor.call('/notifications/setWindowNotificationStatus', Notifier.WINDOW_NOTIFICATION_STATUS_ENABLED);
+                    Meteor.call('/notifier/setWindowNotificationStatus', Notifier.WINDOW_NOTIFICATION_STATUS_ENABLED);
                     console.debug('Permission granted');
                 }else{
                     console.error('Permission denied');

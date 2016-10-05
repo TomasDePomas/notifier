@@ -5,7 +5,7 @@
 Meteor.startup(function () {
 
     var manifest =  Meteor.settings.public.notifier && Meteor.settings.public.notifier.manifest_location ?
-                        Meteor.settings.public.notifier.manifest_location : '/manifest.json',
+                        Meteor.settings.public.notifier.manifest_location : '/notification-manifest.json',
         serviceWorker =  Meteor.settings.public.notifier && Meteor.settings.public.notifier.service_worker_location ?
                         Meteor.settings.public.notifier.service_worker_location :'/service-worker.js';
 

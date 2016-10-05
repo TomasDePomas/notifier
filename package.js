@@ -1,18 +1,19 @@
 Package.describe({
     name: 'tomasdepomas:notifier',
-    version: '0.8.0',
+    version: '0.8.1',
     summary: 'Send notifications to the users of your application using service workers or in-client notifications',
 
     git: 'https://github.com/TomasDePomas/notifier.git',
     documentation: 'README.md'
 });
 
-Package.onUse(function(api) {
+Package.onUse(function (api) {
     api.versionsFrom('1.1.0.2');
-    
+
     api.use([
         'mongo',
         'http',
+        'session',
         'templating',
         'accounts-password',
         'erasaur:meteor-lodash@4.0.0'
