@@ -21,7 +21,7 @@ Table of contents
 Introduction
 ------------
 This package is made to send notifications to the users of your applications. It uses the service worker API to send 
-these notifications even when your site is not active. 
+these notifications even when your site is not active. A demo showing how to set this all up can be found [here](https://github.com/TomasDePomas/notifier_demo)
 
 It took me a while to figure all this out and I am by no means an expert. I just thought this might help people to make use of the new Notification capabilities of modern web browsers. 
 
@@ -92,7 +92,7 @@ Notifier.send(
 );
 ```
 
-For more options, check [the Full documentation](docs/Full-Documentation.md)
+For more options, check [the Full documentation](docs/Full-Documentation.md) or have a look at [the demo](https://github.com/TomasDePomas/notifier_demo)
 
 ToDo list
 ------------
